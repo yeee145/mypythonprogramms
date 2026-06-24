@@ -1,0 +1,30 @@
+body {
+    background-color: #120e1c;
+}
+
+h1:hover{
+  animation: color-change 3s infinite;
+  font-family: 'inter'; /* Семейство шрифтов */
+}
+
+p:hover{
+  animation: color-change 3s infinite;
+  font-family: 'inter'; /* Семейство шрифтов */
+}
+
+h2:hover{
+  animation: size-change 3s infinite;
+  font-family: 'inter'; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+  0%   { color: white; }
+  50%  { color: black; }
+  100% { color: white; }
+}
+
+@keyframes size-change {
+  0%   { font-size: 9px; }
+  50%  { font-size: 16px; }
+  100% { font-size: 28px; }
+}
